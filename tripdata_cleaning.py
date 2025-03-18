@@ -57,3 +57,4 @@ print(geo_df[geo_df['correct_geo_object']==False])
 geo_df.to_file('trip_data_with_geometry', driver='GeoJSON') #covert to GeoJSOn format
 print(geo_df.describe())
 print(geo_df.info())
+print()
